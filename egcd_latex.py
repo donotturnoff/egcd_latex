@@ -2,13 +2,6 @@ valid = False
 while not valid:
 	try:
 		a = int(input("a = "))
-		valid = True
-	except (NameError, ValueError) as e:
-		print("Invalid value")
-
-valid = False
-while not valid:
-	try:
 		b = int(input("b = "))
 		valid = True
 	except (NameError, ValueError) as e:
